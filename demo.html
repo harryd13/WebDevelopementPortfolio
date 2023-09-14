@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  background-color: #fdf6ec;
+  height: 100vh;
+}
+.right {
+  background-color: #f3e9dd;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 0%;
+  height: 100vh;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 5px;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+    padding: 5px;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#dab88b;padding:15px; font-family:'Courier New', Courier, monospace;" >
+  <h1>Cafe Affogato</h1>
+  <h3>we serve the best affogato</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">about us</div>
+    <div class="menuitem">menu</div>
+    <div class="menuitem">reviews</div>
+    <div class="menuitem">gallareia</div>
+  </div>
+
+  <div class="main">
+    <h2>About us</h2>
+    <p>Welcome to Cafe Affogato, where the artistry of coffee meets the elegance of indulgence. Nestled in the heart of the vibrant city, our journey began with a simple passion for crafting exceptional coffee experiences. Founded in 2010 by coffee aficionado Emma Bennett, Cafe Affogato has evolved into a haven for connoisseurs and casual coffee lovers alike. Our baristas, each with a minimum of five years' experience, meticulously select and roast the finest coffee beans from exotic locales, infusing a sense of adventure into every cup.</p> <br>
+    <p>Beyond our meticulously crafted coffees, our menu boasts an array of sumptuous treats, from artisanal gelato to tantalizing pastries, all curated to complement the exquisite flavors of our brews. At Cafe Affogato, we aspire to elevate your coffee rendezvous into a sensory symphony, one cup at a time. Join us, and let's savor the blend of tradition and innovation, where every visit is a journey of taste and discovery.</p>
+  </div>
+
+  <div class="right">
+    <h2>Our Speciality</h2>
+    <p>Indulge in our signature Affogato, a sublime fusion of rich espresso and creamy gelato, creating a symphony of flavors that's pure perfection in a glass.</p>
+    <h2>Where?</h2>
+    <p>123 Maple Street, Willowbrook, Meadowville, 54321.</p>
+    <h2>Reviews</h2>
+    <p>Cafe Affogato is a hidden gem! The Affogato here is unlike anything I've ever tasted. Highly recommended for a perfect indulgence!</p>
+  </div>
+</div>
+
+
+<div style="background-color:#b7cadb;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of Harmandeep Singh's portfolio of fluid web design . Resize the browser window to see the content respond to the resizing.</div>
+
+</body>
+</html>
+
